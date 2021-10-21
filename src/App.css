@@ -1,0 +1,50 @@
+body {
+	border: none;
+	min-height: 400px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px 7px #888888;
+	margin: 20px 50px;
+	background-color: #efefef;
+}
+
+.heading {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 50px;
+	color: #1d2240;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+img {
+	height: 400px;
+}
+
+.filter {
+	display: flex;
+	padding-left: 200px;
+	padding-top: 10px;
+}
+.barchart-filter {
+	flex: 1;
+}
+
+.barchart,
+.linechart {
+	width: 1000px;
+	height: 00px;
+	padding: 30px 90px;
+	margin-left: 120px;
+}
+
+.App {
+	background-color: white;
+	border-radius: 10px;
+	height: 120vh;
+}
